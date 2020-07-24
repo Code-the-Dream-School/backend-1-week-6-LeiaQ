@@ -36,7 +36,7 @@ a separate key, as follows:
 
 ```ruby
 session[:secret]=57
-session{:guess_history]=[11, 23]
+session[:guess_history]=[11, 23]
 ```
 
 # Some hints
