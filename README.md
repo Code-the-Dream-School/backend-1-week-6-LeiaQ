@@ -37,8 +37,9 @@ above).
 # Sessions
 
 A web server such as Sinatra is designed to service concurrent requests from many users.  You have to have a way of keeping the data for each of those user sessions,
-and keeping it separate so that user 1 does not see user 2's data and conversely.  The way this is done in Sinatra as well as other web servers is to use a session.
-The data is actually kept in a cookie that flows back and forth between the browser and the web server.  Near the top of your progam, you must put
+and keeping it separate so that user 1 does not see user 2's data and conversely.  The way this is done in Sinatra as well as other web servers is to use a session cookie, which is a chunk of data in the HTTP headers that flows back and forth between the browser and the web server.  
+
+Near the top of your progam, you must put
 
 enable :sessions
 
