@@ -8,8 +8,19 @@ You will need to do
   
 gem install sinatra  
   
-From the command line to install Sinatra.  When you run the Sinatra program, you will connect to it from your browser using the address localhost:4567 UNLESS you are running
-vagrant.  For students running vagrant, you must start the program with the parameters -p 3000 -o 0.0.0.0 .  Then you use the address localhost:3000 to connect to the
+From the command line to install Sinatra.  When you run the Sinatra program, you will connect to it from your browser using the address 
+
+localhost:4567 
+
+UNLESS you are running vagrant.  For students running vagrant, you must start the program with the parameters
+
+-p 3000 -o 0.0.0.0   
+
+Then you use the address 
+
+localhost:3000 
+
+to connect to the
 program from your browser.
 
 # Sinatra exercise for week 6
